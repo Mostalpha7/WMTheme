@@ -1,0 +1,47 @@
+/* universal */
+
+* {
+   padding: 4px;
+   margin: 0px;
+}
+
+body {
+   overflow-x: hidden;
+}
+
+
+/* navbar */
+
+.navbar .container .pop .d-inline:hover {
+   border-bottom: 2px solid rgb(78, 118, 128);
+}
+
+.row .col-md-3 .card:hover {
+   cursor: pointer;
+
+}
+
+#shop .bg-light .shopAll:hover {
+   background-color: rgb(78, 118, 128);
+   color: white;
+}
+
+
+
+
+@media (max-width:567px) {
+
+   .navbar .container .pop,
+   .pop {
+      display: none;
+   }
+
+   .hide {
+      display: inline;
+      text-align: center;
+   }
+
+   .row .justify-content-center .py-3 {
+      margin: 2;
+   }
+}
